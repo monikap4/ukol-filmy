@@ -9,7 +9,7 @@ const App = () => (
   <>
     <Header />
     <div className="content">
-      <MovieList card={movies} />
+      <MovieList movies={movies} />
     </div>
   </>
 );

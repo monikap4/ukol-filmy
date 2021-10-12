@@ -1,0 +1,19 @@
+.actors-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.actors-block .actors-item {
+    padding-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    width: 50%;
+}
+
+.actors-block .actors-item span {
+    font-size: 15px;
+}
+
+.actors-block .actors-item h4 {
+    margin: 0;
+    font-size: 15px;
+}
