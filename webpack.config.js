@@ -6,12 +6,12 @@ module.exports = {
   entry: './src/index.jsx',
   devtool: 'eval-source-map',
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'docs'),
     filename: 'bundle.js',
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'docs'),
     writeToDisk: true,
   },
   resolve: {
